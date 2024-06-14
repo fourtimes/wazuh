@@ -36,8 +36,18 @@ systemctl enable wazuh-agent
 systemctl start wazuh-agent
 ```
 
+[OR]
+---
+1. Go to the wazuh manager console - https://wazuh-manager-public-ip
+2. Click on the `add new agent (or) deploy new agent` option.
+3. Select your wazuh agent OS type.
+4. Paste the wazuh manager public ip.
+5. Select the default method.
+6. copy the command and paste it to the agent server and execute the command.
+7. after executing the command, we need to start and enable the wazuh agent service.
+8. Go to the wazuh manager console, and check it to the wazuh added agent.
 
-
+ 
 
 
 
